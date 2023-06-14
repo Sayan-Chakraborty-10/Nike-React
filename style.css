@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.img{
+    width: 50%;
+}
+.img-1{
+    width: 75%;
+    height: 75%;
+}
+.btn{
+   background-image: linear-gradient(#253898, #5737D6);
+}
+.heading{
+    color: rgb(249 115 22);
+    font-weight: bolder;
+}
+.heading1{
+    color:  rgb(23 37 84);
+    font-weight: bolder;
+}
+.div{
+    display: flex;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div2{
+    display: flex;
+}
+@media screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+    .img{
+        width: 75%;
+    }
+    .img-1{
+        width: 25%;
+        height: 25%;
+    }
+    .div{
+        flex-direction: column-reverse;
+    }
+    .div1{
+        flex-direction: column-reverse;
+    }
+    .div2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
